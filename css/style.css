@@ -676,9 +676,9 @@ h3 {
 }
 
 .what-seo__p {
-  font-size: 14px;
-  font-weight: 400;
-  padding: 16px 24px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 22px;
   border-radius: 60px;
   color: var(--white);
 }
@@ -702,12 +702,16 @@ h3 {
   display: none;
 }
 
+@media (max-width: 1600px) {
+  .what-seo__p {
+    font-size: 16px;
+  }
+}
 @media (max-width: 1367px) {
   .what-seo__p {
     font-size: 14px;
   }
 }
-
 @media (max-width: 768px) {
   .what-seo__tablets {
     display: none;
